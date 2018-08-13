@@ -1,4 +1,4 @@
-<div align="center">
+
   
 # Web-Scrapper
 <br></br>
@@ -48,4 +48,3 @@ request('WEBSITE_URL_GOES_HERE', (error, Response, html) => {
 
 
 
-</div>
