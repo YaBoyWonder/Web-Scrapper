@@ -1,10 +1,9 @@
 
   
 # Web-Scrapper
-<br></br>
 A <a href="https://nodejs.org/en/">NodeJS</a> Web Scrapper That Will Return Real-Time Information Based Upon Info Requested 
 
-___
+
 <br>
 
 **First Things First**
