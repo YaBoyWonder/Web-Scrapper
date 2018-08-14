@@ -43,6 +43,16 @@ request('WEBSITE_URL_GOES_HERE', (error, Response, html) => {
 
 })
 ```
+<br></br>
+**Note**
+
+There is going to be whitespace in the console, in my opinion it was never a problem but seeing that it may be for others, you can simply just add this replace method in
+
+```js
+
+replace(/\s\s+/g, '');
+
+```
 
 
 
