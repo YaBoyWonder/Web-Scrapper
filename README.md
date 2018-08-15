@@ -18,7 +18,9 @@ I am providing the following things.
 - a Default file to use
 
 - one Formated to Retrieve the Daily Pokemon + Episode Titles from the <a href="https://www.pokemon.com/us/">Pokemon Website</a>
-<i>a sample pretty much on how simple this is to use aswell</i>
+<i>a sample pretty much on how simple this is to use aswell</i>  
+
+<a href="https://i.imgur.com/1ytE5lq.png">Output</a>
 
 <br>
 
