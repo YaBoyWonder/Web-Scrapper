@@ -5,7 +5,8 @@ const cheerio = require('cheerio');
 request('https://www.pokemon.com/us', (error, Response, html) => {
 
         if (!error) {
-
+                        
+                //you can try using a different symbol instead of the $ BUT I would highly recommend you just leave it as that
                 const $ = cheerio.load(html)
 
                 //div_classes the info is under
@@ -15,7 +16,7 @@ request('https://www.pokemon.com/us', (error, Response, html) => {
                 
                 //grabbing the header titles of the pokemon names, pokedex no, episodes, and the titles provided
                 const output = episodeTitle.find('h3').text();
-                const output2 = sliderWrapper.find('h5').text()
+                const output2 = sliderWrapper.find('h5').text()            
 
                 
                 //printing into console
